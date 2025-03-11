@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.random import randn
-from src.assoc_utils_np import train_gcpc, pseudotrain_Wgp
-from src.assoc_utils_np_2D import gen_gbook_2d, path_integration_Wgg_2d, module_wise_NN_2d
-from src.seq_utils import *
+from notebooks.src.assoc_utils_np import train_gcpc, pseudotrain_Wgp
+from notebooks.src.assoc_utils_np_2D import gen_gbook_2d, path_integration_Wgg_2d, module_wise_NN_2d
+from notebooks.src.seq_utils import *
 from numpy.random import randint
 from scipy import stats
 plt.style.use('./src/presentation.mplstyle')

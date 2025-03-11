@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from notebooks.src.data_utils import read_pkl
+
 def errorfill(x, y, yerr, color=None, alpha_fill=0.3, ax=None,label='',lw=1.):
   ax = ax if ax is not None else plt.gca()
   if color is None:
