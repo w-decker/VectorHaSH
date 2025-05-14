@@ -28,7 +28,7 @@ def rank(codebook):
 def rank_sub(codebook, idx=25):
     rank_part = np.zeros((idx))
     for i in range(idx): 
-      rank_part[i] = np.linalg.matrix_rank(gbook[:,:i+1])
+      rank_part[i] = np.linalg.matrix_rank(codebook[:,:i+1])
     # plt.figure()
     # plt.plot(range(idx), rank_part, 'ro--')
     # plt.xlabel("patterns in grid code book", fontsize=16) 
